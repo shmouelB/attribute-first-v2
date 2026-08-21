@@ -1,0 +1,28 @@
+{
+  "split": "test",
+  "setting": "MDS",
+  "subtask": "FiC",
+  "model_name": "models/gemini-3-flash-preview",
+  "prompt_token_budget": 30000,
+  "dialogue_history_token_budget": 200000,
+  "n_demos": 0,
+  "num_retries": 5,
+  "temperature": 0.1,
+  "seed": 20260728,
+  "cut_surplus": true,
+  "CoT": true,
+  "structured_output": true,
+  "output_max_length": 16384,
+  "protocol": {
+    "response_format": "application/json",
+    "schema": "SUBTASK_SCHEMAS.FiC",
+    "prompt_transport": "system-user-model-roles",
+    "environment_flags": {
+      "AF_CONTEXT_CACHE": false,
+      "AF_DIALOGUE_NO_DEMOS": false,
+      "AF_DOCS_FIRST": false,
+      "AF_MARK_CONTEXT": false,
+      "AF_USE_ROLES": true
+    }
+  }
+}

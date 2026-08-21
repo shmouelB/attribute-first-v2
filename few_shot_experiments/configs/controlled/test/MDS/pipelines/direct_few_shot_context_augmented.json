@@ -1,0 +1,14 @@
+[
+  {
+    "subtask": "content_selection",
+    "config_file": "configs/controlled/test/MDS/stages/content_selection_few_shot.json"
+  },
+  {
+    "subtask": "ambiguity_highlight",
+    "config_file": "configs/controlled/test/MDS/stages/context_augmentation_few_shot.json"
+  },
+  {
+    "subtask": "fusion_in_context",
+    "config_file": "configs/controlled/test/MDS/stages/fusion_in_context_few_shot.json"
+  }
+]

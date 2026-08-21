@@ -1,0 +1,12 @@
+{
+  "split": "dev",
+  "setting": "LFQA",
+  "subtask": "FiC",
+  "model_name": "models/gemini-2.5-flash-lite",
+  "n_demos": 2,
+  "num_retries": 5,
+  "temperature": 0.3,
+  "always_with_question": true,
+  "cut_surplus": true,
+  "CoT": true
+}

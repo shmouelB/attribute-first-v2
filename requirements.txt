@@ -1,0 +1,22 @@
+# google-generativeai is deprecated; migrate to google.genai in a separate, controlled change.
+accelerate==1.14.0
+datasets==5.0.0
+en_core_web_sm @ https://github.com/explosion/spacy-models/releases/download/en_core_web_sm-3.8.0/en_core_web_sm-3.8.0-py3-none-any.whl#sha256=1932429db727d4bff3deed6b34cfc05df17794f4a52eeb26cf8928f7c1a0fb85
+evaluate==0.4.6
+filelock==3.29.4
+google-generativeai==0.8.6
+GPUtil==1.4.0
+JSON-minify==0.3.0
+nltk==3.9.4
+numpy==2.4.6
+openai==2.44.0
+pandas==3.0.4
+protobuf==5.29.6
+psutil==7.2.2
+rouge_score==0.1.2
+scipy==1.17.1
+sentence-transformers==3.0.1
+spacy==3.8.14
+torch==2.12.1
+tqdm==4.68.3
+transformers==4.36.0

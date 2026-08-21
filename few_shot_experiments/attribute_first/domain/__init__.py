@@ -1,0 +1,85 @@
+"""Public domain model for controlled Attribute-First experiments."""
+
+from .enums import (
+    ContextAugmentation,
+    Dataset,
+    DemonstrationMode,
+    GenerationStrategy,
+    ModelLifecycle,
+    ModelProvider,
+    StageKind,
+    TransportMode,
+)
+from .identifiers import RunId
+from .evidence_designed import (
+    EvidenceDesignedCatalog,
+    EvidenceDesignedDialogueSpec,
+    LFQA_FEW_SHOT_CONTEXT_COHERENCE_DIALOGUE,
+    LFQA_PLANNED_FEW_SHOT_CONTEXT_INDEPENDENT,
+    PLANNED_ZERO_SHOT_WITHOUT_CONTEXT,
+    resolve_supported_derived_cell,
+    supported_derived_cells,
+    supported_derived_treatments,
+    supported_derived_validation_specs,
+    supported_experiment_catalogs,
+    validate_supported_derived_pair,
+)
+from .catalog import (
+    CampaignCellKind,
+    CampaignPlan,
+    CatalogCell,
+    ExperimentCatalog,
+    SharedContentSelectionPair,
+)
+from .models import (
+    ExperimentCell,
+    ModelSpec,
+    PipelineFactors,
+    StageSpec,
+)
+from .policies import (
+    CONTROLLED_TEST_POPULATIONS,
+    CachePolicy,
+    PopulationContract,
+    PopulationFingerprint,
+    RetryPolicy,
+    TokenBudget,
+)
+
+__all__ = [
+    "CachePolicy",
+    "CampaignCellKind",
+    "CampaignPlan",
+    "CatalogCell",
+    "CONTROLLED_TEST_POPULATIONS",
+    "ContextAugmentation",
+    "Dataset",
+    "DemonstrationMode",
+    "EvidenceDesignedCatalog",
+    "EvidenceDesignedDialogueSpec",
+    "ExperimentCell",
+    "ExperimentCatalog",
+    "GenerationStrategy",
+    "ModelLifecycle",
+    "ModelProvider",
+    "ModelSpec",
+    "LFQA_FEW_SHOT_CONTEXT_COHERENCE_DIALOGUE",
+    "LFQA_PLANNED_FEW_SHOT_CONTEXT_INDEPENDENT",
+    "PipelineFactors",
+    "PLANNED_ZERO_SHOT_WITHOUT_CONTEXT",
+    "PopulationContract",
+    "PopulationFingerprint",
+    "RetryPolicy",
+    "RunId",
+    "resolve_supported_derived_cell",
+    "SharedContentSelectionPair",
+    "StageKind",
+    "StageSpec",
+    "supported_derived_cells",
+    "supported_derived_treatments",
+    "supported_derived_validation_specs",
+    "supported_experiment_catalogs",
+    "TokenBudget",
+    "TransportMode",
+    "validate_supported_derived_pair",
+]

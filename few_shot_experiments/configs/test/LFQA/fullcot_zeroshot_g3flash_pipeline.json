@@ -1,0 +1,4 @@
+[
+  { "subtask": "content_selection", "config_file": "configs/test/LFQA/cs_zeroshot_g3flash.json" },
+  { "subtask": "fusion_in_context", "config_file": "configs/test/LFQA/fic_controlled_zeroshot_g3flash.json" }
+]

@@ -1,0 +1,10 @@
+[
+  {
+    "subtask": "content_selection",
+    "config_file": "configs/dev/LFQA/cs_fewshot_liteweak.json"
+  },
+  {
+    "subtask": "fusion_in_context",
+    "config_file": "configs/dev/LFQA/fic_fewshot_liteweak.json"
+  }
+]

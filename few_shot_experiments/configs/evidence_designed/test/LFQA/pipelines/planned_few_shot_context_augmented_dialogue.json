@@ -1,0 +1,22 @@
+[
+  {
+    "subtask": "content_selection",
+    "config_file": "configs/evidence_designed/test/LFQA/stages/content_selection_few_shot.json"
+  },
+  {
+    "subtask": "ambiguity_highlight",
+    "config_file": "configs/evidence_designed/test/LFQA/stages/context_augmentation_few_shot.json"
+  },
+  {
+    "subtask": "clustering",
+    "config_file": "configs/evidence_designed/test/LFQA/stages/coherence_clustering.json"
+  },
+  {
+    "subtask": "reorder",
+    "config_file": "configs/evidence_designed/test/LFQA/stages/coherence_reorder.json"
+  },
+  {
+    "subtask": "fusion_in_context",
+    "config_file": "configs/evidence_designed/test/LFQA/stages/planned_fusion.json"
+  }
+]

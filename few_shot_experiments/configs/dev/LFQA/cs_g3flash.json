@@ -1,0 +1,11 @@
+{
+  "split": "dev",
+  "setting": "LFQA",
+  "subtask": "content_selection",
+  "model_name": "models/gemini-3-flash-preview",
+  "n_demos": 4,
+  "num_retries": 5,
+  "temperature": 0.3,
+  "always_with_question": true,
+  "output_max_length": 8192
+}

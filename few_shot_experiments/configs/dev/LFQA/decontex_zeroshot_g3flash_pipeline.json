@@ -1,0 +1,14 @@
+[
+  {
+    "subtask": "content_selection",
+    "config_file": "configs/dev/LFQA/cs_zeroshot_g3flash.json"
+  },
+  {
+    "subtask": "ambiguity_highlight",
+    "config_file": "configs/dev/LFQA/ah_zeroshot_g3flash.json"
+  },
+  {
+    "subtask": "fusion_in_context",
+    "config_file": "configs/dev/LFQA/fic_zeroshot_g3flash.json"
+  }
+]

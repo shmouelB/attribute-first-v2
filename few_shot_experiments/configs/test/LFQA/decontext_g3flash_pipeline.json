@@ -1,0 +1,14 @@
+[
+  {
+    "subtask": "content_selection",
+    "config_file": "configs/test/LFQA/cs_g3flash.json"
+  },
+  {
+    "subtask": "ambiguity_highlight",
+    "config_file": "configs/test/LFQA/ah_g3flash.json"
+  },
+  {
+    "subtask": "fusion_in_context",
+    "config_file": "configs/test/LFQA/fic_controlled_g3flash.json"
+  }
+]

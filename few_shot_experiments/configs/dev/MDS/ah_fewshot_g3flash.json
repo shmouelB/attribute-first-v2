@@ -1,0 +1,10 @@
+{
+  "split": "dev",
+  "setting": "MDS",
+  "subtask": "ambiguity_highlight",
+  "model_name": "models/gemini-3-flash-preview",
+  "n_demos": 3,
+  "num_retries": 5,
+  "temperature": 0.2,
+  "output_max_length": 16384
+}

@@ -1,0 +1,24 @@
+{
+  "split": "dev",
+  "setting": "MDS",
+  "subtask": "content_selection",
+  "n_demos": 2,
+  "num_retries": 5,
+  "temperature": 0.1,
+  "seed": 20260728,
+  "structured_output": true,
+  "model_name": "models/gemini-3-flash-preview",
+  "output_max_length": 8192,
+  "protocol": {
+    "response_format": "application/json",
+    "schema": "SUBTASK_SCHEMAS.content_selection",
+    "prompt_transport": "system-user-model-roles",
+    "environment_flags": {
+      "AF_CONTEXT_CACHE": false,
+      "AF_DIALOGUE_NO_DEMOS": false,
+      "AF_DOCS_FIRST": false,
+      "AF_MARK_CONTEXT": false,
+      "AF_USE_ROLES": true
+    }
+  }
+}
